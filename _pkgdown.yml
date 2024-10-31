@@ -6,5 +6,4 @@ navbar:
   structure:
     left: [intro, reference]
     right: [github]
-  logo: "man/figures/logo.png""
-
+  logo: "man/figures/logo.png"
