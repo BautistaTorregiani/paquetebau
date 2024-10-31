@@ -1,0 +1,23 @@
+---
+title: "vineta"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vineta}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(paquetebau)
+```
+
+```{r}
+suma(2,2)
+```

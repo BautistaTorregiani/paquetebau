@@ -1,17 +1,5 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
 # paquetebau
 
@@ -21,11 +9,13 @@ knitr::opts_chunk$set(
 
 <!-- badges: end -->
 
-El proposito de la creacion de este paquete es poder estudiar para el parcial de programacion 2.
+El proposito de la creacion de este paquete es poder estudiar para el
+parcial de programacion 2.
 
 ## Instalacion
 
-You can install the development version of paquetebau from [GitHub](https://github.com/) with:
+You can install the development version of paquetebau from
+[GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")
@@ -36,12 +26,14 @@ pak::pak("BautistaTorregiani/paquetebau")
 
 Primero debemos importar la libreria:
 
-```{r example}
+``` r
 library(paquetebau)
 ```
 
-Luego, podemos usar dichas funciones incluidas en el paquete , como podria ser la funcion `suma()`
+Luego, podemos usar dichas funciones incluidas en el paquete , como
+podria ser la funcion `suma()`
 
-```{r}
+``` r
 suma(2,2)
+#> [1] 4
 ```
